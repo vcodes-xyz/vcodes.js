@@ -6,7 +6,7 @@ const { baseUrl } = require("./vcodes.config");
 module.exports = class vCodes extends EventEmitter {
 	constructor(token) {
 		super();
-		this.ws = new WebSocket("ws://161.97.82.170:25590/v1/gateway?token=" + token);
+		this.ws = new WebSocket("ws://ws.vcodes.xyz:25590/v1/gateway?token=" + token);
 		this.ws.on("message", async msg => {
 			const message = JSON.parse(msg.toString());
 			if (message.type == "ERROR") throw new Error("(vcodes.js): " + message.message);
