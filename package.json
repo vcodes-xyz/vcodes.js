@@ -1,0 +1,36 @@
+{
+  "name": "vcodes.js",
+  "version": "3.0.0",
+  "description": "It is a module for vCodes.xyz.",
+  "main": "vcodes.index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vcodes-xyz/vcodes.js.git"
+  },
+  "keywords": [
+    "dbl",
+    "botlist",
+    "vcodes"
+  ],
+  "authors": [
+    {
+      "name": "Void Development",
+      "email": "contact@voiddevs.org",
+      "url": "https://voiddevs.org"
+    },
+    {
+      "name": "clqu",
+      "email": "clqu@voiddevs.org",
+      "url": "https://clqu.live"
+    }
+  ],
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vcodes-xyz/vcodes.js/issues"
+  },
+  "homepage": "https://github.com/vcodes-xyz/vcodes.js#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "ws": "^8.3.0"
+  }
+}
